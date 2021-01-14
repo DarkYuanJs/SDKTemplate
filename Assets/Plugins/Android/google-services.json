@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "618562503752",
+    "firebase_url": "https://fir-testdemo-c7a67-default-rtdb.firebaseio.com",
+    "project_id": "fir-testdemo-c7a67",
+    "storage_bucket": "fir-testdemo-c7a67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618562503752:android:79f072bd880e3e94e9047d",
+        "android_client_info": {
+          "package_name": "com.newbortown.sdk.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618562503752-se93cq9ek0tlabktn6ef1b4nqulh6b40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgbI68OMDXxWUbUpyLp91oKUa1A9-Ulh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618562503752-se93cq9ek0tlabktn6ef1b4nqulh6b40.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "618562503752-cpegf7cqocqd2j9osj12vl4egoopaeti.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.newbortown.sdk.test"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
