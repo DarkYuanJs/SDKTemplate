@@ -1,0 +1,1450 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - AppsFlyerGameObject
+    - CanvasTemplate
+    - CrashlyticsTester
+    - FireabseInit
+    - InitSdk
+    - KeepGameObjectStatic
+    - MoPubConsent
+    - MoPubManager
+    - MoPubManagerTesting
+    - MopubCallbacks
+    - SRDebugger.Scripts.DebuggerTabController
+    - SRDebugger.Settings
+    - SRDebugger.UI.Controls.ConsoleEntryView
+    - SRDebugger.UI.Controls.ConsoleLogControl
+    - SRDebugger.UI.Controls.Data.ActionControl
+    - SRDebugger.UI.Controls.Data.BoolControl
+    - SRDebugger.UI.Controls.Data.EnumControl
+    - SRDebugger.UI.Controls.Data.NumberControl
+    - SRDebugger.UI.Controls.Data.ReadOnlyControl
+    - SRDebugger.UI.Controls.Data.StringControl
+    - SRDebugger.UI.Controls.InfoBlock
+    - SRDebugger.UI.Controls.MultiTapButton
+    - SRDebugger.UI.Controls.PinEntryControl
+    - SRDebugger.UI.Controls.ProfilerEnableControl
+    - SRDebugger.UI.Controls.ProfilerGraphAxisLabel
+    - SRDebugger.UI.Controls.ProfilerGraphControl
+    - SRDebugger.UI.Controls.ProfilerMemoryBlock
+    - SRDebugger.UI.Controls.ProfilerMonoBlock
+    - SRDebugger.UI.Controls.SRTabButton
+    - SRDebugger.UI.DebugPanelRoot
+    - SRDebugger.UI.MobileMenuController
+    - SRDebugger.UI.Other.BugReportPopoverRoot
+    - SRDebugger.UI.Other.BugReportSheetController
+    - SRDebugger.UI.Other.CategoryGroup
+    - SRDebugger.UI.Other.ConfigureCanvasFromSettings
+    - SRDebugger.UI.Other.ConsoleTabQuickViewControl
+    - SRDebugger.UI.Other.DebugPanelBackgroundBehaviour
+    - SRDebugger.UI.Other.DockConsoleController
+    - SRDebugger.UI.Other.HandleManager
+    - SRDebugger.UI.Other.LoadingSpinnerBehaviour
+    - SRDebugger.UI.Other.PinnedUIRoot
+    - SRDebugger.UI.Other.SRTab
+    - SRDebugger.UI.Other.SRTabController
+    - SRDebugger.UI.Other.ScrollRectPatch
+    - SRDebugger.UI.Other.ScrollSettingsBehaviour
+    - SRDebugger.UI.Other.SetLayerFromSettings
+    - SRDebugger.UI.Other.TriggerRoot
+    - SRDebugger.UI.Other.VersionTextBehaviour
+    - SRDebugger.UI.ProfilerFPSLabel
+    - SRDebugger.UI.Tabs.BugReportTabController
+    - SRDebugger.UI.Tabs.ConsoleTabController
+    - SRDebugger.UI.Tabs.InfoTabController
+    - SRDebugger.UI.Tabs.OptionsTabController
+    - SRDebugger.UI.Tabs.ProfilerTabController
+    - SRF.UI.CopyLayoutElement
+    - SRF.UI.CopyPreferredSize
+    - SRF.UI.CopySizeIntoLayoutElement
+    - SRF.UI.DragHandle
+    - SRF.UI.FlashGraphic
+    - SRF.UI.InheritColour
+    - SRF.UI.Layout.FlowLayoutGroup
+    - SRF.UI.Layout.VirtualVerticalLayoutGroup
+    - SRF.UI.LongPressButton
+    - SRF.UI.ResponsiveEnable
+    - SRF.UI.ResponsiveResize
+    - SRF.UI.SRNumberButton
+    - SRF.UI.SRNumberSpinner
+    - SRF.UI.SRRetinaScaler
+    - SRF.UI.SRSpinner
+    - SRF.UI.SRText
+    - SRF.UI.ScrollToBottomBehaviour
+    - SRF.UI.StyleComponent
+    - SRF.UI.StyleRoot
+    - SRF.UI.StyleSheet
+    - SRF.UI.Unselectable
+    Enhancer.Editor.dll:
+    - XT.Enhancer.Settings
+    Unity.2D.Animation.Editor.dll:
+    - UnityEditor.U2D.Animation.BoneGizmo
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11256}
+    - Class: 114
+      Script: {instanceID: 11258}
+    - Class: 114
+      Script: {instanceID: 11260}
+    - Class: 114
+      Script: {instanceID: 11262}
+    - Class: 114
+      Script: {instanceID: 11264}
+    - Class: 114
+      Script: {instanceID: 11266}
+    - Class: 114
+      Script: {instanceID: 11268}
+    - Class: 114
+      Script: {instanceID: 11270}
+    - Class: 114
+      Script: {instanceID: 11272}
+    - Class: 114
+      Script: {instanceID: 11280}
+    - Class: 114
+      Script: {instanceID: 11286}
+    - Class: 114
+      Script: {instanceID: 11318}
+    - Class: 114
+      Script: {instanceID: 11348}
+    - Class: 114
+      Script: {instanceID: 11394}
+    - Class: 114
+      Script: {instanceID: 11398}
+    - Class: 114
+      Script: {instanceID: 11416}
+    - Class: 114
+      Script: {instanceID: 11466}
+    - Class: 114
+      Script: {instanceID: 11548}
+    - Class: 114
+      Script: {instanceID: 11554}
+    - Class: 114
+      Script: {instanceID: 11654}
+    - Class: 114
+      Script: {instanceID: 11656}
+    - Class: 114
+      Script: {instanceID: 11660}
+    - Class: 114
+      Script: {instanceID: 11706}
+    - Class: 114
+      Script: {instanceID: 11714}
+    - Class: 114
+      Script: {instanceID: 11782}
+    - Class: 114
+      Script: {instanceID: 11838}
+    - Class: 114
+      Script: {instanceID: 11884}
+    - Class: 114
+      Script: {instanceID: 11926}
+    - Class: 114
+      Script: {instanceID: 12036}
+    - Class: 114
+      Script: {instanceID: 12092}
+    - Class: 114
+      Script: {instanceID: 12258}
+    - Class: 114
+      Script: {instanceID: 12276}
+    - Class: 114
+      Script: {instanceID: 12308}
+    - Class: 114
+      Script: {instanceID: 12340}
+    - Class: 114
+      Script: {instanceID: 12370}
+    - Class: 114
+      Script: {instanceID: 12392}
+    - Class: 114
+      Script: {instanceID: 12446}
+    - Class: 114
+      Script: {instanceID: 12472}
+    - Class: 114
+      Script: {instanceID: 12514}
+    - Class: 114
+      Script: {instanceID: 12526}
+    - Class: 114
+      Script: {instanceID: 12562}
+    - Class: 114
+      Script: {instanceID: 12672}
+    - Class: 114
+      Script: {instanceID: 12736}
+    - Class: 114
+      Script: {instanceID: 12818}
+    - Class: 114
+      Script: {instanceID: 12934}
+    - Class: 114
+      Script: {instanceID: 12948}
+    - Class: 114
+      Script: {instanceID: 12994}
+    - Class: 114
+      Script: {instanceID: 13044}
+    - Class: 114
+      Script: {instanceID: 13148}
+    - Class: 114
+      Script: {instanceID: 13156}
+    - Class: 114
+      Script: {instanceID: 13158}
+    - Class: 114
+      Script: {instanceID: 13204}
+    - Class: 114
+      Script: {instanceID: 13256}
+    - Class: 114
+      Script: {instanceID: 13280}
+    - Class: 114
+      Script: {instanceID: 13430}
+    - Class: 114
+      Script: {instanceID: 13440}
+    - Class: 114
+      Script: {instanceID: 13550}
+    - Class: 114
+      Script: {instanceID: 13626}
+    - Class: 114
+      Script: {instanceID: 13688}
+    - Class: 114
+      Script: {instanceID: 13692}
+    - Class: 114
+      Script: {instanceID: 13696}
+    - Class: 114
+      Script: {instanceID: 13730}
+    - Class: 114
+      Script: {instanceID: 13768}
+    - Class: 114
+      Script: {instanceID: 13782}
+    - Class: 114
+      Script: {instanceID: 13784}
+    - Class: 114
+      Script: {instanceID: 13792}
+    - Class: 114
+      Script: {instanceID: 13868}
+    - Class: 114
+      Script: {instanceID: 13896}
+    - Class: 114
+      Script: {instanceID: 13992}
+    - Class: 114
+      Script: {instanceID: 14014}
+    - Class: 114
+      Script: {instanceID: 14030}
+    - Class: 114
+      Script: {instanceID: 14088}
+    - Class: 114
+      Script: {instanceID: 14110}
+    - Class: 114
+      Script: {instanceID: 14254}
+    - Class: 114
+      Script: {instanceID: 14286}
+    - Class: 114
+      Script: {instanceID: 14288}
+    - Class: 114
+      Script: {instanceID: 14294}
+    - Class: 114
+      Script: {instanceID: 14318}
+    - Class: 114
+      Script: {instanceID: 14334}
+    - Class: 114
+      Script: {instanceID: 14340}
+    - Class: 114
+      Script: {instanceID: 14356}
+    - Class: 114
+      Script: {instanceID: 14474}
+    - Class: 114
+      Script: {instanceID: 14516}
+    - Class: 114
+      Script: {instanceID: 14582}
+    - Class: 114
+      Script: {instanceID: 14592}
+    - Class: 114
+      Script: {instanceID: 14594}
+    - Class: 114
+      Script: {instanceID: 14692}
+    - Class: 114
+      Script: {instanceID: 14780}
+    - Class: 114
+      Script: {instanceID: 14828}
+    - Class: 114
+      Script: {instanceID: 14862}
+    - Class: 114
+      Script: {instanceID: 14960}
+    - Class: 114
+      Script: {instanceID: 15036}
+    - Class: 114
+      Script: {instanceID: 15042}
+    - Class: 114
+      Script: {instanceID: 15064}
+    - Class: 114
+      Script: {instanceID: 15164}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 1330703616b807de48c1d19f8467dd10
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: TriggerRoot
+  - hash:
+      serializedVersion: 2
+      Hash: 70fdf0c45f9a0ac65440c1aac6ab29bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Tabs
+    className: ProfilerTabController
+  - hash:
+      serializedVersion: 2
+      Hash: ff3f6e758364ca3cecb7eaf763b36ba4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: SRNumberButton
+  - hash:
+      serializedVersion: 2
+      Hash: c42672c997f8be6b1aa86a927ebea785
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 56705241d2649f7d6a95e7b828a7215c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: SRTabButton
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b4fc42b020df4b67385e61ff21d513cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 29b2cc4ef7210a2a416019ad5d8330da
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger
+    className: Settings
+  - hash:
+      serializedVersion: 2
+      Hash: e58801b5fe26c1d2aa604d0067007e50
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: ResponsiveResize
+  - hash:
+      serializedVersion: 2
+      Hash: b34ed8770215e5c6b34b15435dd2db30
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: FlashGraphic
+  - hash:
+      serializedVersion: 2
+      Hash: ebed2bdd67516819ae9bf25c1f82158e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: ProfilerMemoryBlock
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 4cd524824706c08bd8fe024ab9c29709
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls.Data
+    className: EnumControl
+  - hash:
+      serializedVersion: 2
+      Hash: b36f4aec00294149eb2491543a757da9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: MultiTapButton
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger
+    className: SRDebuggerInit
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: aeb62f729c52c814dec86c47dcac1471
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: ec21d9da1c8de1707e7e8309c85f4fdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: InfoBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 499fd23433e68e265d153aa6b95d0047
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 7c684985aa93e9474bb88905945ff9dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CanvasTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: e53985f985e254decbee02efa8cb7e67
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: CopySizeIntoLayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 1d845b2535654b2525956159b2714d86
+    assemblyName: Unity.2D.SpriteShape.Runtime.dll
+    namespaceName: UnityEngine.U2D
+    className: SpriteShapeController
+  - hash:
+      serializedVersion: 2
+      Hash: a8212e35f30ef91f054075c00c5cf780
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: CopyPreferredSize
+  - hash:
+      serializedVersion: 2
+      Hash: 234d407605354852c48e57df17c9a1c6
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.Services.Implementation
+    className: PinEntryServiceImpl
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.Service
+    className: SRServiceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 996977a9259e9736e70f85072a0990bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: CopyLayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 8406b30e14dc938e3d10b65b8b586383
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: ContentFitText
+  - hash:
+      serializedVersion: 2
+      Hash: 0c4edaeec34f80151aaeab73cbab6455
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls.Data
+    className: NumberControl
+  - hash:
+      serializedVersion: 2
+      Hash: 523ce309f50d9eee6a8fc0e2f86c9c97
+    assemblyName: Unity.2D.SpriteShape.Runtime.dll
+    namespaceName: 
+    className: SpriteShapeGeometryCache
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Firebase.Platform.dll
+    namespaceName: Firebase.Platform
+    className: FirebaseMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: dcbd48be88755cfedfad8eae441bd15a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: ProfilerMonoBlock
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 87cef3c82381dc586f6772c3e27561b6
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.Experimental.U2D.Animation
+    className: SpriteLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 55cbb67aec96e0bbcbee3354979f274c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls.Data
+    className: StringControl
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.2D.PixelPerfect.dll
+    namespaceName: UnityEngine.U2D
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: fefccfdf0eb47f36fcf7e39e89645983
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdColonyNetworkConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.Services.Implementation
+    className: KeyboardShortcutListenerService
+  - hash:
+      serializedVersion: 2
+      Hash: 56337c0b3c697d56328c75e14126e116
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: IronSourceNetworkConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 1103fb0758976355cdf9b7d5ce9cb7e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 63bdc2cf3273aa9bf650350f19d2af61
+    assemblyName: Unity.2D.PixelPerfect.dll
+    namespaceName: UnityEngine.U2D
+    className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 896c8864b7c5f621445ba8044ce86851
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI.Layout
+    className: VirtualVerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 999c7a599c7854b6149ced67ffd21a1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: SRRetinaScaler
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: dd817c5b2dc3b3819b13da2d5e1ead55
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: ConsoleEntryView
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.Profiler
+    className: ProfilerLateUpdateListener
+  - hash:
+      serializedVersion: 2
+      Hash: de1aa9adba972394bbf036116fbc9ae6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI
+    className: ProfilerFPSLabel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CrashlyticsTester
+  - hash:
+      serializedVersion: 2
+      Hash: 65cbdcb68b30e73763776f59fd254e51
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: BugReportSheetController
+  - hash:
+      serializedVersion: 2
+      Hash: 6a6f771fd48810ffeb40d2667a5dcf36
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: InheritColour
+  - hash:
+      serializedVersion: 2
+      Hash: f3066e23e19c6920907b2eb03f52da9d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Tabs
+    className: ConsoleTabController
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: b424b4eeb810aecb0ff91c62639241e9
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.Experimental.U2D.Animation
+    className: SpriteResolver
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0edeba255bdbade25edc357f1412ba38
+    assemblyName: Unity.2D.SpriteShape.Runtime.dll
+    namespaceName: UnityEngine.U2D
+    className: SpriteShape
+  - hash:
+      serializedVersion: 2
+      Hash: 11bdd61587db747672b66c52442395d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: ProfilerGraphAxisLabel
+  - hash:
+      serializedVersion: 2
+      Hash: 5cc439bf63c0539d39588e69465ac2ab
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.Profiler
+    className: SRPProfilerService
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.Profiler
+    className: ProfilerServiceImpl
+  - hash:
+      serializedVersion: 2
+      Hash: e7fc668b7ead6dcb45fc5f8eaaa81586
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: SRTabController
+  - hash:
+      serializedVersion: 2
+      Hash: 4de357f4220218a687c275f108b9ec6f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoPubManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.Services.Implementation
+    className: DebugTriggerImpl
+  - hash:
+      serializedVersion: 2
+      Hash: f1bd7137cd707c2961c4cdd214c2ca13
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AppsFlyerGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.Services.Implementation
+    className: PinnedUIServiceImpl
+  - hash:
+      serializedVersion: 2
+      Hash: c0beedb5b0d96325c043b0f74360ec89
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: ScrollRectPatch
+  - hash:
+      serializedVersion: 2
+      Hash: e46834a5d6c72c81592e7f5f55eee765
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: LongPressButton
+  - hash:
+      serializedVersion: 2
+      Hash: ce3b842cdad88bcea706236d1d1c8842
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.Scripts
+    className: DebuggerTabController
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 79cb458601d45c0b113d89d8ac9aa465
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Tabs
+    className: OptionsTabController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkinEntity
+  - hash:
+      serializedVersion: 2
+      Hash: 0328108b86c5c6a73889d8022e7159f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AppLovinNetworkConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GravityController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 905699d09e34fc022069a561e57c4a29
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: DockConsoleController
+  - hash:
+      serializedVersion: 2
+      Hash: 6072a9fc6aefda26867f883ed91615ab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: ConsoleLogControl
+  - hash:
+      serializedVersion: 2
+      Hash: a160a90ce6231fd2592b20dcf8c9ccdf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: ScrollToBottomBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: e0c3f8237e386d500b89992825058850
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls.Data
+    className: BoolControl
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: f8ba0cd4483a432516ac983b1975d563
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: ProfilerGraphControl
+  - hash:
+      serializedVersion: 2
+      Hash: 4b47f4e1a2092c58d7118ecedfe9872e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoPubStaticNativeAd
+  - hash:
+      serializedVersion: 2
+      Hash: 5d503502a3d7292b03a37256a6d0b75f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: PinnedUIRoot
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: f84d945e5e1ca985698660fc26e9657f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 3336e500351c1ffecbe5300380c7aa20
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoPubDemoGUI
+  - hash:
+      serializedVersion: 2
+      Hash: bec6ae78fe9a691b675c2d180eec7eb7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MopubCallbacks
+  - hash:
+      serializedVersion: 2
+      Hash: a08fd2c2e9d45a1244229785d59b1969
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls.Data
+    className: ReadOnlyControl
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: AppsFlyerSDK
+    className: AppsFlyer
+  - hash:
+      serializedVersion: 2
+      Hash: 818e85acc8f8219982c9e488a164495e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: ConsoleTabQuickViewControl
+  - hash:
+      serializedVersion: 2
+      Hash: 9d8608fed3477ad4ad1dcdd4cf1797fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: PinEntryControl
+  - hash:
+      serializedVersion: 2
+      Hash: 3282f1316adfc46d0792665d06673d32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdMobNetworkConfig
+  - hash:
+      serializedVersion: 2
+      Hash: c6aeef117c2a7c47b607caed947a8c88
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: SRSpinner
+  - hash:
+      serializedVersion: 2
+      Hash: 7a5f8b137805475785ffc6eb5844777a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: LoadingSpinnerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 430b167f39bff224603edb4558287b52
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: VersionTextBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.Services.Implementation
+    className: BugReportApiService
+  - hash:
+      serializedVersion: 2
+      Hash: 71b711096c6c32621c1d4c02310898b7
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkin
+  - hash:
+      serializedVersion: 2
+      Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: c9a8b80298a116835b51ba1cf9284367
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: f848a79d405c1ef04a21ec77792f7926
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KeepGameObjectStatic
+  - hash:
+      serializedVersion: 2
+      Hash: 8ddb2623fc29de5a8a3c3b5b94031b3b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: HandleManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 344a8c2e106a0a4e098e91a52e0af063
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 28cfb4bd305dd11c6326cc3ee7c14138
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.Experimental.U2D.Animation
+    className: SpriteLibraryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.Services.Implementation
+    className: DebugPanelServiceImpl
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: ConfigureCanvasFromSettings
+  - hash:
+      serializedVersion: 2
+      Hash: e4558f95bb4d42ea31e63b5d2014bdd0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI
+    className: MobileMenuController
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoPubNativeAdsToggler
+  - hash:
+      serializedVersion: 2
+      Hash: 9c0cc4877aa6f484e8840e43c3b7f441
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI
+    className: DebugPanelRoot
+  - hash:
+      serializedVersion: 2
+      Hash: 35bcea93b3d12b998284076abab26401
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoPubConsent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: ScrollSettingsBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 6a3d93276a6a4e7eadc1712ce4bba16f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: CategoryGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NativeAdClickHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: Unselectable
+  - hash:
+      serializedVersion: 2
+      Hash: 6939772cb3ce775a8e8d99f332534491
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 00809c67bfd7c0f07a3e1b1666c8696c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AppsFlyerObjectScript
+  - hash:
+      serializedVersion: 2
+      Hash: 3dcc2b1f224d8bcd3c8f27f7043e81fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Tabs
+    className: BugReportTabController
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 9cde4fb29e02182d6a9a9d1c8b1e0206
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: BugReportPopoverRoot
+  - hash:
+      serializedVersion: 2
+      Hash: 46a911eb33672050736223158d48ffac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: ResponsiveEnable
+  - hash:
+      serializedVersion: 2
+      Hash: ef0bfc2322df44a1beef695c2e73bd0d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: DragHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: SetLayerFromSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 8fe6e9c1b4a575c9f76992d36dd64f10
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: DebugPanelBackgroundBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireabseInit
+  - hash:
+      serializedVersion: 2
+      Hash: caccf697ca91fe41b1e3b2cf5f42893c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InitSdk
+  - hash:
+      serializedVersion: 2
+      Hash: 6dc3188f458443592ff59444abc70fb2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Tabs
+    className: InfoTabController
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: db5c181b712a305a5c6de212b6590305
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls.Data
+    className: ActionControl
+  - hash:
+      serializedVersion: 2
+      Hash: 3fb9681fa772d390d6fb1a0898b85200
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: StyleRoot
+  - hash:
+      serializedVersion: 2
+      Hash: 073d8d0ef6d5a805ea861e23ecf046f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: SRNumberSpinner
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 4de357f4220218a687c275f108b9ec6f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoPubManagerTesting
+  - hash:
+      serializedVersion: 2
+      Hash: 2d31cfc8c7e811fff42065622fe26303
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FacebookAudienceNetworkNetworkConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.Profiler
+    className: ProfilerCameraListener
+  - hash:
+      serializedVersion: 2
+      Hash: 70ed5ac18145553a73cefa8f3ac3f2f2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Other
+    className: SRTab
+  - hash:
+      serializedVersion: 2
+      Hash: 8cd1cbba27f3cb1717254f668e9e0d5a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: a09283975be625059400764cdb7c7008
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: StyleComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 45169e0c369c5d43026ff4e6e4cf3447
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI.Layout
+    className: FlowLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4ef0f7d42cdb13479386e1f049c315aa
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 2820336d770c6427588932608b788c70
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoPubEventListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: eba880938d83f3bcf30d2cdeccb6ac7c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: ProfilerEnableControl
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: aa88ae22474df55295327e4ee99e5a24
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRDebugger.Services.Implementation
+    className: BugReportPopoverService
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: aeb62f729c52c814dec86c47dcac1471
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SRF.UI
+    className: SRText
+  platform: 13
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: D:/gitPro/SDKTemplate/NativeAndroid
