@@ -9,24 +9,6 @@
 *.ldb  
 *.sln   
 ##class file##
-*.com  
-*.class  
-*.dll  
-*.exe  
-*.o  
-*.so 
-# compression file
-*.7z  
-*.dmg  
-*.gz  
-*.iso  
-*.jar  
-*.rar  
-*.tar  
-*.zip  
-*.via
-*.tmp
-*.err
 # OS generated files #  
 .DS_Store  
 .DS_Store?  
@@ -36,7 +18,7 @@
 .gradle
 .idea
 build
-Library?  
+Library  
 Logs
 Debug
 ehthumbs.db  
