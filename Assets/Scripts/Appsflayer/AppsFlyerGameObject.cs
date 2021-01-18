@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AppsFlyerGameObject : MonoBehaviour, IAppsFlyerConversionData
 {
-
+    public bool _tokenSent = false;
     // These fields are set from the editor so do not modify!
     //******************************//
     public string devKey;
