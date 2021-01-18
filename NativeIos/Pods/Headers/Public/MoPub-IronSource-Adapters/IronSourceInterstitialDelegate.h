@@ -1,0 +1,1 @@
+../../../MoPub-IronSource-Adapters/IronSource/IronSourceInterstitialDelegate.h

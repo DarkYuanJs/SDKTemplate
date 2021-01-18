@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+
+target 'UnityFramework' do
+  pod 'AppsFlyerFramework', '6.1.3'
+  pod 'Firebase/Analytics', '7.0.0'
+  pod 'Firebase/Core', '7.0.0'
+  pod 'Firebase/Crashlytics', '7.0.0'
+  pod 'Firebase/Messaging', '7.0.0'
+  pod 'MoPub-AdColony-Adapters', '4.4.1.1.3', :subspecs => ['Network']
+  pod 'MoPub-AdMob-Adapters', '7.69.0.1', :subspecs => ['Network']
+  pod 'MoPub-Applovin-Adapters', '6.14.11.0', :subspecs => ['Network']
+  pod 'MoPub-FacebookAudienceNetwork-Adapters', '6.2.1.0', :subspecs => ['Network']
+  pod 'mopub-ios-sdk', '5.15.0', :subspecs => ['Core']
+  pod 'MoPub-IronSource-Adapters', '7.0.4.0.0', :subspecs => ['Network']
+  pod 'MoPub-SDK-Plugin', :path => '/Users/xteam/Desktop/SDKTemplate/Assets/MoPub/Plugins/iOS'
+end

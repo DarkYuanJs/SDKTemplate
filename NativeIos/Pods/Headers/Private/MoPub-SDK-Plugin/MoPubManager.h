@@ -1,0 +1,1 @@
+../../../../../Assets/MoPub/Plugins/iOS/MoPubManager.h

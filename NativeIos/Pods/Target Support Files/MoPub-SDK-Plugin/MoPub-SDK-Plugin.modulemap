@@ -1,0 +1,6 @@
+module MoPub_SDK_Plugin {
+  umbrella header "MoPub-SDK-Plugin-umbrella.h"
+
+  export *
+  module * { export * }
+}

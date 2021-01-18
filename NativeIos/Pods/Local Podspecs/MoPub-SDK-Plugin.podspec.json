@@ -1,0 +1,23 @@
+{
+  "name": "MoPub-SDK-Plugin",
+  "version": "5.15.0",
+  "summary": "Unity wrapper for MoPub iOS SDK",
+  "homepage": "https://github.com/mopub/mopub-unity-sdk",
+  "license": {
+    "type": "MoPub",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MoPub": "support@mopub.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/mopub/mopub-unity-sdk.git",
+    "tag": "v5.15.0"
+  },
+  "source_files": "*.{h,m,mm,swift}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

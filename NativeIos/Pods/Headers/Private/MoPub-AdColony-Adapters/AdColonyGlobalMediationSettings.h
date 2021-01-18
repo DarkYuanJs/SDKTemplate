@@ -1,0 +1,1 @@
+../../../MoPub-AdColony-Adapters/AdColony/AdColonyGlobalMediationSettings.h
