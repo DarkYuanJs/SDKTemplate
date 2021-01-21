@@ -11,6 +11,21 @@
       </intent-filter>
       <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
       <meta-data android:name="android.notch_support" android:value="true" />
+      <intent-filter  android:autoVerify="true">
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="https"
+            android:host="newbortownaftest.onelink.me"
+            android:pathPrefix="/N5un" />
+      </intent-filter>
+
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="newbortownaftestlink" />
+      </intent-filter>
     </activity>
     <service android:name="com.google.firebase.messaging.MessageForwardingService" android:exported="false" />
     <meta-data android:name="unity.splash-mode" android:value="0" />
