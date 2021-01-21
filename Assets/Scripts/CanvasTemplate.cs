@@ -32,6 +32,7 @@ public class CanvasTemplate : MonoBehaviour
     // 请求mopub的激励视频广告
     public void MopubRewardAdRespButtonClicked()
     {
+        if (initSdk.mopubCallbacks.IsRewardVideoAdReady()) return;
         initSdk.mopubCallbacks.RequestRewardVideoAd();
     }
 

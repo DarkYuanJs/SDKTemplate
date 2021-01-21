@@ -17,5 +17,7 @@
 				  <!-- Google Admob application id -->
   <meta-data android:name="com.google.android.gms.ads.AD_MANAGER_APP" android:value="true" />
   <meta-data android:name="com.google.android.gms.ads.ca-app-pub-9927149423263577~1217883830" android:value="ca-app-pub-9927149423263577~1217883830" />
+  <!-- Applovin sdk key -->
+  <meta-data android:name="applovin.sdk.key" android:value="2Q3UbCfSGuIPR3906vN-egwmGIzXLhAO6DtiQW9gOS5rVFrb8DZnvTW9mUh6AtVG5MzWu7CHZH63Wyfe9DQ2hy" />
    </application>
 </manifest>

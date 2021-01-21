@@ -2126,6 +2126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9565906ec5126c4f8cac3a5ab01824a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _tokenSent: 0
   devKey: qbKVyawAiwNX3b4D3Frijm
   appID: 1512334716
   isDebug: 1
