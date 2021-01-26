@@ -29,9 +29,16 @@ public class FacebookGameObject : MonoBehaviour
 
             FB.LogInWithReadPermissions(new List<string>() { "public_profile" }, (result) =>
                {
-                   GFuncs.PrintLog(string.Format("Facebook Login : {0}", result.ToString())); ;
-                   FBQuereUidAndName(action1);
-                   FBUpdateHeadIcon(action2);
+                   if (FB.IsLoggedIn)
+                   {
+                       GFuncs.PrintLog(string.Format("Facebook Login : {0}", result.ToString())); ;
+                       FBQuereUidAndName(action1);
+                       FBUpdateHeadIcon(action2);
+                   }
+                   else
+                   {
+                       GFuncs.PrintLog("Facebook Login Fail");
+                   }
                });
         }
     }
