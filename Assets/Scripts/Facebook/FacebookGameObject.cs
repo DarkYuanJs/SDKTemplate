@@ -101,7 +101,7 @@ public class FacebookGameObject : MonoBehaviour
     }
 
     // 获得好友列表
-    public void GetFirendList()
+    public void GetFirendList(Action<List<object>> action = null)
     {
         FB.API("me/friends?fields=id,name,picture", HttpMethod.GET, (result) =>
         {
@@ -123,6 +123,11 @@ public class FacebookGameObject : MonoBehaviour
 
                         Debug.Log("friend Name " + fbName + "  UID:" + fbID);
                     }
+                    if (action != null)
+                    {
+                        action((List<object>)result.ResultDictionary["data"]);
+                    }
+
                 }
             }
             else

@@ -723,10 +723,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 58225544-56c0-42e0-9c3a-964134452c23
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: sdkTemplate
+  organizationId: wechat_os_qy03bpd9ibjcw7whc-e2lsahg
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

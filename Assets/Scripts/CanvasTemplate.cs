@@ -94,6 +94,10 @@ public class CanvasTemplate : MonoBehaviour
     // facebook 请求好友列表
     public void FacebookRespFriendListButtonClicked()
     {
-        initSdk.facebookGameObject.GetFirendList();
+        initSdk.facebookGameObject.GetFirendList((result) =>
+        {
+            facebookMainUi.UpdateFriendList(result);
+
+        });
     }
 }
