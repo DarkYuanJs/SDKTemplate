@@ -209,7 +209,10 @@
     <orderEntry type="library" name="Gradle: com.mopub.mediation:facebookaudiencenetwork:6.2.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.mopub.mediation:ironsource:7.0.4.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.media2:media2-exoplayer:1.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: :common:@aar" level="project" />
     <orderEntry type="library" name="Gradle: :facebook-android-wrapper-9.0.0:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: :GoogleAIDL:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: :GooglePlay:@aar" level="project" />
     <orderEntry type="library" name="Gradle: :mopub-unity-wrappers:@aar" level="project" />
     <orderEntry type="module" module-name="unityLibrary-FirebaseApp.androidlib" />
     <orderEntry type="module" module-name="unityLibrary-FirebaseCrashlytics.androidlib" />

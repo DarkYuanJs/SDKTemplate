@@ -62,7 +62,10 @@ dependencies {
     implementation 'com.mopub:mopub-sdk:5.15.0' // Assets/MoPub/Scripts/Editor/MoPubDependencies.xml:3
     implementation 'com.parse.bolts:bolts-android:1.4.0' // Assets/FacebookSDK/Plugins/Editor/Dependencies.xml:4
 // Android Resolver Dependencies End
+    implementation(name: 'common', ext:'aar')
     implementation(name: 'facebook-android-wrapper-9.0.0', ext:'aar')
+    implementation(name: 'GoogleAIDL', ext:'aar')
+    implementation(name: 'GooglePlay', ext:'aar')
     implementation(name: 'mopub-unity-wrappers', ext:'aar')
     implementation project('FirebaseApp.androidlib')
     implementation project('FirebaseCrashlytics.androidlib')

@@ -24,22 +24,30 @@ public class FacebookGameObject : MonoBehaviour
     // facebook 登录
     public void FBLogin(Action action1 = null, Action action2 = null)
     {
-        if (FBIsInitialized() && FBTokenIsNull())
+        if (FBIsInitialized())
         {
-
-            FB.LogInWithReadPermissions(new List<string>() { "public_profile" }, (result) =>
-               {
-                   if (FB.IsLoggedIn)
-                   {
-                       GFuncs.PrintLog(string.Format("Facebook Login : {0}", result.ToString())); ;
-                       FBQuereUidAndName(action1);
-                       FBUpdateHeadIcon(action2);
-                   }
-                   else
-                   {
-                       GFuncs.PrintLog("Facebook Login Fail");
-                   }
-               });
+            if (FBTokenIsNull())
+            {
+                FB.LogInWithReadPermissions(new List<string>() { "public_profile" }, (result) =>
+                {
+                    if (FB.IsLoggedIn)
+                    {
+                        GFuncs.PrintLog(string.Format("Facebook Login : {0}", result.ToString())); ;
+                        FBQuereUidAndName(action1);
+                        FBUpdateHeadIcon(action2);
+                    }
+                    else
+                    {
+                        GFuncs.PrintLog("Facebook Login Fail");
+                    }
+                });
+            }
+            else // 加载本地token
+            {
+                GFuncs.PrintLog("Facebook Login : Load Native Token"); ;
+                FBQuereUidAndName(action1);
+                FBUpdateHeadIcon(action2);
+            }
         }
     }
 
@@ -72,7 +80,7 @@ public class FacebookGameObject : MonoBehaviour
                 {
                     //保存在本地
                     byte[] pngData = result.Texture.EncodeToPNG();
-                    string pngPath = AccessToken.CurrentAccessToken.UserId + ".png";
+                    string pngPath = Application.persistentDataPath + "/" + AccessToken.CurrentAccessToken.UserId + ".png";
                     if (File.Exists(pngPath))
                     {
                         File.Delete(pngPath);
@@ -92,7 +100,7 @@ public class FacebookGameObject : MonoBehaviour
         {
             if (headSprite == null) // 本地加载
             {
-                string pngPath = AccessToken.CurrentAccessToken.UserId + ".png";
+                string pngPath = Application.persistentDataPath + "/" + AccessToken.CurrentAccessToken.UserId + ".png";
                 if (File.Exists(pngPath))
                 {
                     headSprite = DownLoadSprite(pngPath);
