@@ -9,6 +9,8 @@ public class CanvasTemplate : MonoBehaviour
     // 崩溃按钮上的显示
     public Text firebaseCrashTextButtontext;
 
+    // facebook信息
+    public FacebookMainUi facebookMainUi;
 
     void Start()
     {
@@ -77,4 +79,21 @@ public class CanvasTemplate : MonoBehaviour
         initSdk.mopubCallbacks.ShowInterstitialAd();
     }
 
+    // facebook登录
+    public void FacebookLoginButtonClicked()
+    {
+        initSdk.facebookGameObject.FBLogin(() => { facebookMainUi.UpdateNameAndUid(initSdk.facebookGameObject); }, () => { facebookMainUi.UpdateHeadIcon(initSdk.facebookGameObject); });
+    }
+
+    // facebook请求头像更新
+    public void FacebookUpdateIconButtonClicked()
+    {
+        initSdk.facebookGameObject.FBUpdateHeadIcon(() => { facebookMainUi.UpdateHeadIcon(initSdk.facebookGameObject); });
+    }
+
+    // facebook 请求好友列表
+    public void FacebookRespFriendListButtonClicked()
+    {
+        initSdk.facebookGameObject.GetFirendList();
+    }
 }

@@ -68,69 +68,69 @@ public class MopubCallbacks : MonoBehaviour
     //【插屏广告事件监听】插屏广告加载成功
     private void OnInterAdLoadedEvent(string adUnitId)
     {
-        PrintLog("OnInterAdLoadedEvent:" + adUnitId);
+        GFuncs.PrintLog("OnInterAdLoadedEvent:" + adUnitId);
     }
 
     //【插屏广告事件监听】插屏广告加载失败
     private void OnInterAdFailedEvent(string adUnitId, string error)
     {
-        PrintLog(string.Format("OnInterAdFailedEvent:{0}  error:{1}", adUnitId, error));
+        GFuncs.PrintLog(string.Format("OnInterAdFailedEvent:{0}  error:{1}", adUnitId, error));
     }
 
     //【插屏广告事件监听】插屏广告摒弃回调
     private void OnInterAdDismissedEvent(string adUnitId)
     {
-        PrintLog(string.Format("OnInterAdDismissedEvent:{0} ", adUnitId));
+        GFuncs.PrintLog(string.Format("OnInterAdDismissedEvent:{0} ", adUnitId));
     }
 
     //【激励视频广告事件监听】激励视频广告加载成功
     private void OnRewardedVideoLoadedEvent(string adUnitId)
     {
-        PrintLog(string.Format("OnRewardedVideoLoadedEvent:{0} ", adUnitId));
+        GFuncs.PrintLog(string.Format("OnRewardedVideoLoadedEvent:{0} ", adUnitId));
     }
 
     //【激励视频广告事件监听】激励视频广告加载失败
     private void OnRewardedVideoFailedEvent(string adUnitId, string error)
     {
-        PrintLog(string.Format("OnRewardedVideoFailedEvent:{0}  error:{1}", adUnitId, error));
+        GFuncs.PrintLog(string.Format("OnRewardedVideoFailedEvent:{0}  error:{1}", adUnitId, error));
     }
 
 
     //【激励视频广告事件监听】激励视频广告播放失败
     private void OnRewardedVideoFailedToPlayEvent(string adUnitId, string error)
     {
-        PrintLog(string.Format("OnRewardedVideoFailedToPlayEvent:{0}  error:{1}", adUnitId, error));
+        GFuncs.PrintLog(string.Format("OnRewardedVideoFailedToPlayEvent:{0}  error:{1}", adUnitId, error));
     }
 
     //【激励视频广告事件监听】激励视频广告获得奖励
     private void OnRewardedVideoReceivedRewardEvent(string adUnitId, string reward, float amount)
     {
-        PrintLog(string.Format("OnRewardedVideoReceivedRewardEvent:{0}  reward:{1}", adUnitId, reward));
+        GFuncs.PrintLog(string.Format("OnRewardedVideoReceivedRewardEvent:{0}  reward:{1}", adUnitId, reward));
     }
 
     //【激励视频广告事件监听】激励视频广告关闭
     private void OnRewardedVideoClosedEvent(string adUnitId)
     {
-        PrintLog(string.Format("OnRewardedVideoClosedEvent:{0} ", adUnitId));
+        GFuncs.PrintLog(string.Format("OnRewardedVideoClosedEvent:{0} ", adUnitId));
     }
 
     //【Banner广告事件监听】Banner广告加载成功
     private void OnBannerAdLoadedEvent(string adUnitId, float height)
     {
-        PrintLog(string.Format("OnBannerAdLoadedEvent:{0} height:", adUnitId, height));
+        GFuncs.PrintLog(string.Format("OnBannerAdLoadedEvent:{0} height:", adUnitId, height));
     }
 
 
     //【Banner广告事件监听】Banner广告加载失败
     private void OnBannerAdFailedEvent(string adUnitId, string error)
     {
-        PrintLog(string.Format("OnBannerAdFailedEvent:{0}  error:{1}", adUnitId, error));
+        GFuncs.PrintLog(string.Format("OnBannerAdFailedEvent:{0}  error:{1}", adUnitId, error));
     }
 
     //【通用广告事件监听】广告填充事件
     private void OnImpressionTrackedEvent(string adUnitId, MoPub.ImpressionData impressionData)
     {
-        PrintLog(string.Format("OnImpressionTrackedEvent:{0}", adUnitId));
+        GFuncs.PrintLog(string.Format("OnImpressionTrackedEvent:{0}", adUnitId));
     }
 
 
@@ -151,6 +151,8 @@ public class MopubCallbacks : MonoBehaviour
     // 播放激励视频广告
     public void ShowRewardVideoAd()
     {
+        if (!IsRewardVideoAdReady()) return;
+
         MoPub.ShowRewardedVideo(rewardedVideoAdUnits[0]);
     }
 
@@ -214,9 +216,4 @@ public class MopubCallbacks : MonoBehaviour
         MoPub.DestroyInterstitialAd(interstitialAdUnits[0]);
     }
 
-
-    private void PrintLog(string log)
-    {
-        Debug.Log(string.Format("MopubLog : {0}", log));
-    }
 }

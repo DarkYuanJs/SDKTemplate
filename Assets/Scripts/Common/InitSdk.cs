@@ -12,6 +12,8 @@ public class InitSdk : MonoBehaviour
     public MoPubManager moPubManager;
     // mopub 的callback
     public MopubCallbacks mopubCallbacks;
+    // facebook 的gameobject
+    public FacebookGameObject facebookGameObject;
 
 
     void Start()
@@ -22,23 +24,39 @@ public class InitSdk : MonoBehaviour
         InitFirebaseSdk();
         // 初始化mopub
         InitMopubSdk();
+        // 初始化facebook
+        InitFacebookSdk();
+
     }
 
-    public void InitAppsflayerSdk()
+    private void InitAppsflayerSdk()
     {
         appsFlyerGameObject.Init();
     }
 
-    public void InitFirebaseSdk()
+    private void InitFirebaseSdk()
     {
         fireabseInit.Init();
     }
 
     // 初始化mopub的sdk
-    public void InitMopubSdk()
+    private void InitMopubSdk()
     {
         moPubManager.gameObject.SetActive(true);
         moPubManager.enabled = true;
     }
 
+    // 初始化facebook
+    private void InitFacebookSdk()
+    {
+        facebookGameObject.Init();
+    }
+}
+
+public static class GFuncs
+{
+    public static void PrintLog(string log)
+    {
+        Debug.Log(string.Format("MopubLog : {0}", log));
+    }
 }

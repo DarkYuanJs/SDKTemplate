@@ -74,6 +74,17 @@
     <Compile Include="Assets\AppsFlyer\IAppsFlyerConversionData.cs" />
     <Compile Include="Assets\AppsFlyer\IAppsFlyerUserInvite.cs" />
     <Compile Include="Assets\AppsFlyer\IAppsFlyerValidateReceipt.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\LogView.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\MenuBase.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AccessTokenMenu.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppEvents.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppLinks.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppRequests.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\DialogShare.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GraphRequest.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\MainMenu.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
     <Compile Include="Assets\MoPub\Mediation\AdColony\Scripts\AdColonyNetworkConfig.cs" />
     <Compile Include="Assets\MoPub\Mediation\AdMob\Scripts\AdMobNetworkConfig.cs" />
     <Compile Include="Assets\MoPub\Mediation\AppLovin\Scripts\AppLovinNetworkConfig.cs" />
@@ -114,6 +125,8 @@
     <Compile Include="Assets\Scripts\CanvasTemplate.cs" />
     <Compile Include="Assets\Scripts\Common\InitSdk.cs" />
     <Compile Include="Assets\Scripts\Common\KeepGameObjectStatic.cs" />
+    <Compile Include="Assets\Scripts\Facebook\FacebookGameObject.cs" />
+    <Compile Include="Assets\Scripts\Facebook\FacebookMainUi.cs" />
     <Compile Include="Assets\Scripts\Firebase\CrashlyticsTester.cs" />
     <Compile Include="Assets\Scripts\Firebase\FireabseInit.cs" />
     <Compile Include="Assets\Scripts\Mopub\MopubCallbacks.cs" />
@@ -269,6 +282,7 @@
     <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\StyleRoot.cs" />
     <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\StyleSheet.cs" />
     <Compile Include="Assets\StompyRobot\SRF\Scripts\UI\Unselectable.cs" />
+    <None Include="Assets\FacebookSDK\link.xml" />
     <None Include="Assets\StompyRobot\Readme.txt" />
     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
     <None Include="Assets\MoPub\Plugins\Android\MoPub.plugin\AndroidManifest.xml" />
@@ -454,6 +468,18 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>D:/Program Files/2019.4.7f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity">
+      <HintPath>D:/gitPro/SDKTemplate/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>D:/gitPro/SDKTemplate/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>D:/gitPro/SDKTemplate/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>D:/gitPro/SDKTemplate/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Analytics">
       <HintPath>D:/gitPro/SDKTemplate/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>

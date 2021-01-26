@@ -30,7 +30,7 @@ public class FireabseInit : MonoBehaviour
                 Firebase.FirebaseApp app = Firebase.FirebaseApp.DefaultInstance;
                 // Set a flag here for indicating that your project is ready to use Firebase.
                 // 开启debug模式
-                Firebase.FirebaseApp.LogLevel = Firebase.LogLevel.Verbose;
+                Firebase.FirebaseApp.LogLevel = Firebase.LogLevel.Debug;
                 // 确认crash 是否初始化成功并打开
                 // Debug.LogWarning("yjs: IsCrashlyticsCollectionEnabled " + (Firebase.Crashlytics.Crashlytics.IsCrashlyticsCollectionEnabled ? "true" : "false"));
                 //Debug.LogWarning("yjs: TokenRegistrationOnInitEnabled " + (Firebase.Messaging.FirebaseMessaging.TokenRegistrationOnInitEnabled ? "true" : "false"));

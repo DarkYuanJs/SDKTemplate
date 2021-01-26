@@ -104,6 +104,7 @@
     <None Include="Assets\MoPub\Mediation\AppLovin\Editor\AppLovinDependencies.xml" />
     <None Include="Assets\MoPub\Mediation\FacebookAudienceNetwork\Editor\FacebookAudienceNetworkDependencies.xml" />
     <None Include="Assets\MoPub\Scripts\Editor\MoPubDependencies.xml" />
+    <None Include="Assets\FacebookSDK\Plugins\Editor\Dependencies.xml" />
     <None Include="Assets\Firebase\Editor\FirebaseMessaging_version-7.0.2_manifest.txt" />
     <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.162_manifest.txt" />
     <None Include="Assets\Firebase\Editor\MessagingDependencies.xml" />
@@ -331,6 +332,21 @@
     </Reference>
     <Reference Include="Google.VersionHandlerImpl_v1.2.162">
       <HintPath>D:/gitPro/SDKTemplate/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.162.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity">
+      <HintPath>D:/gitPro/SDKTemplate/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Editor">
+      <HintPath>D:/gitPro/SDKTemplate/Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>D:/gitPro/SDKTemplate/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>D:/gitPro/SDKTemplate/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>D:/gitPro/SDKTemplate/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Crashlytics.Editor">
       <HintPath>D:/gitPro/SDKTemplate/Assets/Firebase/Editor/Firebase.Crashlytics.Editor.dll</HintPath>
