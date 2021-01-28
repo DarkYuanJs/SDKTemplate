@@ -14,6 +14,8 @@ public class InitSdk : MonoBehaviour
     public MopubCallbacks mopubCallbacks;
     // facebook 的gameobject
     public FacebookGameObject facebookGameObject;
+    // 支付的 gameobject
+    public PurchaseGameObject purchaseGameObject;
 
 
     void Start()
@@ -26,6 +28,8 @@ public class InitSdk : MonoBehaviour
         InitMopubSdk();
         // 初始化facebook
         InitFacebookSdk();
+        // 初始化IAP
+        InitPurchaseSdk();
 
     }
 
@@ -50,6 +54,12 @@ public class InitSdk : MonoBehaviour
     private void InitFacebookSdk()
     {
         facebookGameObject.Init();
+    }
+
+    // 支付的初始化
+    private void InitPurchaseSdk()
+    {
+        purchaseGameObject.Init();
     }
 }
 
