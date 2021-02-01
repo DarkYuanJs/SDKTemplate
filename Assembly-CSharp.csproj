@@ -504,6 +504,9 @@
     <Reference Include="Google.MiniJson">
       <HintPath>D:/gitPro/SDKTemplate/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:/gitPro/SDKTemplate/Assets/NewtonsoftJson/JsonNet/Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Compat">
       <HintPath>D:/gitPro/SDKTemplate/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
     </Reference>
@@ -542,9 +545,6 @@
     </Reference>
     <Reference Include="winrt">
       <HintPath>D:/gitPro/SDKTemplate/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/gitPro/SDKTemplate/Assets/NewtonsoftJson/JsonNet/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Program Files/2019.4.7f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

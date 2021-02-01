@@ -7,7 +7,7 @@
  * created:   2021/1/11
  * descrip:   firebase初始化cs文件
  ***************************************************************/
-//using AppsFlyerSDK;
+using AppsFlyerSDK;
 using UnityEngine;
 
 public class FireabseInit : MonoBehaviour
@@ -54,9 +54,9 @@ public class FireabseInit : MonoBehaviour
 
     public void OnTokenReceived(object sender, Firebase.Messaging.TokenReceivedEventArgs token)
     {
-        //Debug.Log("YJS Received Registration Token: " + token.Token);
+        Debug.Log("YJS Received Registration Token: " + token.Token);
 #if !UNITY_EDITOR && UNITY_ANDROID
-       // AppsFlyerAndroid.updateServerUninstallToken(token.Token);
+        AppsFlyerAndroid.updateServerUninstallToken(token.Token);
 #endif
     }
 
