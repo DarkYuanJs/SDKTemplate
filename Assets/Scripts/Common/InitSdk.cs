@@ -15,7 +15,7 @@ public class InitSdk : MonoBehaviour
     // facebook 的gameobject
     public FacebookGameObject facebookGameObject;
     // 支付的 gameobject
-    public PurchaseGameObject purchaseGameObject;
+    public IAPManager iapManagerGameObject;
 
 
     void Start()
@@ -59,7 +59,7 @@ public class InitSdk : MonoBehaviour
     // 支付的初始化
     private void InitPurchaseSdk()
     {
-        purchaseGameObject.Init();
+        iapManagerGameObject.InitPurchase();
     }
 }
 

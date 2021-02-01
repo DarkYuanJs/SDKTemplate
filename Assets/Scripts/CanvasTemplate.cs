@@ -100,4 +100,10 @@ public class CanvasTemplate : MonoBehaviour
 
         });
     }
+
+    // iap支付按钮
+    public void IAPPurchBuyButtonClicked()
+    {
+        initSdk.iapManagerGameObject.OnBuyButtonClicked(0);
+    }
 }

@@ -417,6 +417,9 @@
     <Reference Include="winrt">
       <HintPath>D:/gitPro/SDKTemplate/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:/gitPro/SDKTemplate/Assets/NewtonsoftJson/JsonNet/Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>D:/gitPro/SDKTemplate/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
