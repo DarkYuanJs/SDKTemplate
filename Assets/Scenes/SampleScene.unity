@@ -1142,7 +1142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60f2451d5293453429b5d1ffd92dba63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireabseInit: {fileID: 1272555555}
+  firebaseInit: {fileID: 1272555555}
   crashlyticsTester: {fileID: 1272555554}
   appsFlyerGameObject: {fileID: 1585163049}
   moPubManager: {fileID: 759257182}

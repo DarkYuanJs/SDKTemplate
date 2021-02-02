@@ -10,7 +10,7 @@
 using AppsFlyerSDK;
 using UnityEngine;
 
-public class FireabseInit : MonoBehaviour
+public class FirebaseInit : MonoBehaviour
 {
     // firebase是否初始化成功
     public bool _firebaseInitSucc { get; set; } = false;

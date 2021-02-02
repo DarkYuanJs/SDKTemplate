@@ -129,7 +129,7 @@
     <Compile Include="Assets\Scripts\Facebook\FacebookGameObject.cs" />
     <Compile Include="Assets\Scripts\Facebook\FacebookMainUi.cs" />
     <Compile Include="Assets\Scripts\Firebase\CrashlyticsTester.cs" />
-    <Compile Include="Assets\Scripts\Firebase\FireabseInit.cs" />
+    <Compile Include="Assets\Scripts\Firebase\FirebaseInit.cs" />
     <Compile Include="Assets\Scripts\IAP\IAPManager.cs" />
     <Compile Include="Assets\Scripts\Mopub\MopubCallbacks.cs" />
     <Compile Include="Assets\StompyRobot\SRDebugger\Scripts\AutoInitialize.cs" />

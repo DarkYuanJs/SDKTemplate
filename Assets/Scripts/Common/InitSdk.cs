@@ -3,7 +3,7 @@
 public class InitSdk : MonoBehaviour
 {
     // firebase的初始化文件
-    public FireabseInit fireabseInit;
+    public FirebaseInit firebaseInit;
     // firebase的报错测试文件
     public CrashlyticsTester crashlyticsTester;
     // appsflayer的初始化文件
@@ -40,7 +40,7 @@ public class InitSdk : MonoBehaviour
 
     private void InitFirebaseSdk()
     {
-        fireabseInit.Init();
+        firebaseInit.Init();
     }
 
     // 初始化mopub的sdk
